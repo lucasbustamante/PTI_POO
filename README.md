@@ -1,18 +1,17 @@
-## Getting Started
+# PTI de POO
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+A) Implemente o construtor da classe ponto que recebe por parâmetros dois
+valores inteiros com os valores dos atributos x e y respectivamente.
+Implemente um outro construtor para classe Ponto que não recebe nada por
+parâmetro, o construtor inicializa os atributos da classe (x e y) com o valor zero.
+Note que aqui utilizamos polimorfismos estático.
 
-## Folder Structure
 
-The workspace contains two folders by default, where:
-
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+B) Implemente um método que verifica se dois pontos são iguais, ou seja,
+verifique se dois pontos possui os mesmos valores para x e y, um dos pontos
+será passado de forma implícita na chamada do método e outro de forma
+tradicional como parâmetro do método. Em seguida, implemente o método que
+calcula a distância entre dois pontos, para tanto o objeto que invoca o método é
+considerado um parâmetro (implícita) e outro objeto Ponto é passado por
+parâmetro ao método (explícita). Caso não se lembre como calcular a distância
+entre dois pontos pode consultar as explicações no [site](https://www.educamaisbrasil.com.br/enem/matematica/distancia-entre-dois-pontos)
